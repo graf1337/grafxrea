@@ -1,3 +1,4 @@
+# Жадный алгоритм: интервальное планирование(7 вариант)
 def interval_scheduling(intervals):
     # Сортируем интервалы по времени окончания
     intervals.sort(key=lambda x: x[1])
