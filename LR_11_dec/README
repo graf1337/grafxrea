@@ -1,0 +1,9 @@
+Задание 11: ResNet блоки с skip connections 
+ 
+Задача: реализовать ResNet архитектуру с остаточными блоками. 
+ 
+Требования: 
+Residual блок: Conv → BatchNorm → ReLU → Conv → BatchNorm + skip → ReLU 
+Bottleneck блок для уменьшения размерности 
+Адаптация skip connection при изменении размерности 
+ResNet-50 архитектура
